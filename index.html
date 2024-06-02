@@ -1,23 +1,75 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <link rel="alternate icon" type="image/png" href="/img/favicon.png">
+    <title>Fanxle&#39;s blog | lalala</title>
+    
+<link rel="stylesheet" href="/css/reset.css">
 
-{% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
+    
+<link rel="stylesheet" href="/css/style.css">
 
-{% block page_class %}
-  {% if is_home() %}page-home{% endif -%}
-{% endblock %}
+    
+<link rel="stylesheet" href="/css/markdown.css">
 
-{% block content %}
-  <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </section>
+    
+<link rel="stylesheet" href="/css/fonts.css">
 
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
+<meta name="generator" content="Hexo 7.2.0"></head>
+    <body>
+        <div class="paper">
+            <div class="paper-main">
+                
+                    <div class="header">
+    <a class="logo" href="/">Fanxle&#39;s blog</a>
+    <ul class="nav">
+        
+        <li><a href="/">首页</a></li>
+        
+        <li><a href="/archives">归档</a></li>
+        
+        <li><a href="/about">关于</a></li>
+        
+    </ul>
+</div>
+                
+                <div class="post-list">
+    
+    <div class="post">
+        <a class="post-title" href="/2024/06/01/test-blog/">test_blog</a>
+        <div class="post-except">
+            #这是一篇测试博客仅作为测试    jt_test_blog
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+            <a class="read-more" href="/2024/06/01/test-blog/"> ... </a>
+        </div>
+        <div class="post-date">2024.06.01</div>
+    </div>
+    
+</div>
+
+                <div class="footer">
+    <span>Copyright © 2022 Fanxle&#39;s blog</span>
+    <span>Theme Designed By <a target="_blank" href="https://zheli.design/one-paper">這李設計</a></span>
+</div>
+
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+            </div>
+        </div>
+    </body>
+</html>
