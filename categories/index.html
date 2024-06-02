@@ -1,68 +1,77 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
-    <link rel="alternate icon" type="image/png" href="/img/favicon.png">
-    <title>Fanxle&#39;s blog | lalala</title>
-    
-<link rel="stylesheet" href="/css/reset.css">
+{% extends '_layout.swig' %}
+{% import '_macro/sidebar.swig' as sidebar_template with context %}
 
-    
-<link rel="stylesheet" href="/css/style.css">
+{% block title %}
+  {%- set page_title_suffix = ' | ' + title %}
 
-    
-<link rel="stylesheet" href="/css/markdown.css">
+  {%- if page.type === 'categories' and not page.title %}
+    {{- __('title.category') + page_title_suffix }}
+  {%- elif page.type === 'tags' and not page.title %}
+    {{- __('title.tag') + page_title_suffix }}
+  {%- elif page.type === 'schedule' and not page.title %}
+    {{- __('title.schedule') + page_title_suffix }}
+  {%- else %}
+    {{- page.title + page_title_suffix }}
+  {%- endif %}
+{% endblock %}
 
-    
-<link rel="stylesheet" href="/css/fonts.css">
+{% block class %}page posts-expand{% endblock %}
 
-<meta name="generator" content="Hexo 7.2.0"></head>
-    <body>
-        <div class="paper">
-            <div class="paper-main">
-                
-                    <div class="post-header">
-    <a class="logo" href="/">Fanxle&#39;s blog</a>
-    <a class="go-home" href="/">
-        <svg width="8" height="14" viewBox="0 0 8 14">
-            <path d="M7 1L1 7l6 6" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </a>
-</div>
-                
-                <div class="post-main">
+{% block content %}
 
-    
-
-        <div class="post-md">
-            
-        </div>
-
-    
-
-</div>
-                <div class="footer">
-    <span>Copyright © 2022 Fanxle&#39;s blog</span>
-    <span>Theme Designed By <a target="_blank" href="https://zheli.design/one-paper">這李設計</a></span>
-</div>
-
-
-<link rel="stylesheet" href="/css/a11y-dark.min.css">
-
-
-<script src="/js/highlight.min.js"></script>
-
-
-<script src="/js/highlightjs-line-numbers.js"></script>
-
-
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
-
+    {##################}
+    {### PAGE BLOCK ###}
+    {##################}
+    <div class="post-block" lang="{{ page.lang or config.language }}">
+      {% include '_partials/page/page-header.swig' %}
+      {#################}
+      {### PAGE BODY ###}
+      {#################}
+      <div class="post-body{%- if page.direction and page.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}">
+        {%- if page.type === 'tags' %}
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+              {{ _p('counter.tag_cloud', site.tags.length) }}
             </div>
-        </div>
-    </body>
-</html>
+            <div class="tag-cloud-tags">
+              {{ tagcloud({
+                min_font   : theme.tagcloud.min,
+                max_font   : theme.tagcloud.max,
+                amount     : theme.tagcloud.amount,
+                color      : true,
+                start_color: theme.tagcloud.start,
+                end_color  : theme.tagcloud.end})
+              }}
+            </div>
+          </div>
+        {% elif page.type === 'categories' %}
+          <div class="category-all-page">
+            <div class="category-all-title">
+              {{ _p('counter.categories', site.categories.length) }}
+            </div>
+            <div class="category-all">
+              {{ list_categories() }}
+            </div>
+          </div>
+        {% elif page.type === 'schedule' %}
+          <div class="event-list">
+          </div>
+          {% include '_scripts/pages/schedule.swig' %}
+        {% else %}
+          {{ page.content }}
+        {%- endif %}
+      </div>
+      {#####################}
+      {### END PAGE BODY ###}
+      {#####################}
+    </div>
+    {% include '_partials/page/breadcrumb.swig' %}
+    {######################}
+    {### END PAGE BLOCK ###}
+    {######################}
+
+{% endblock %}
+
+{% block sidebar %}
+  {{ sidebar_template.render(true) }}
+{% endblock %}
