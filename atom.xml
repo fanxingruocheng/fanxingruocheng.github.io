@@ -6,7 +6,7 @@
   <link href="https://fanxingruocheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://fanxingruocheng.github.io/"/>
-  <updated>2024-06-04T15:35:35.957Z</updated>
+  <updated>2024-06-05T03:18:31.758Z</updated>
   <id>https://fanxingruocheng.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新日志</title>
+    <link href="https://fanxingruocheng.github.io/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-1/"/>
+    <id>https://fanxingruocheng.github.io/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-1/</id>
+    <published>2024-06-05T03:13:19.000Z</published>
+    <updated>2024-06-05T03:18:31.758Z</updated>
+    
+    <content type="html"><![CDATA[<p>装了一个上午，啥也没装出来，我看看能不能装一个字数统计，装半天也没看见在哪统计的，还想装一个站内搜索，也没成功，那个留言板也没成功我是真想不明白。我看他们实现功能倒是快，文件直接false改true就行了，我还要看看怎么写代码，创建文件，这主题就是太简洁了，什么都没有，实现什么都得靠自己来，感觉这功能实现先放一放吧，主要是太费时间了，半天啥也没做出来。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;装了一个上午，啥也没装出来，我看看能不能装一个字数统计，装半天也没看见在哪统计的，还想装一个站内搜索，也没成功，那个留言板也没成功我是真想不明白。我看他们实现功能倒是快，文件直接false改true就行了，我还要看看怎么写代码，创建文件，这主题就是太简洁了，什么都没有，实现</summary>
+      
+    
+    
+    
+    
+    <category term="更新" scheme="https://fanxingruocheng.github.io/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>试试能不能放图片</title>
