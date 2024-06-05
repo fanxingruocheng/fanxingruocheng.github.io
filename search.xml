@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test_blog</title>
-    <url>/2024/06/01/test-blog/</url>
-    <content><![CDATA[<p>#这是一篇测试博客<br>仅作为测试<br>    jt_test_blog</p>
-]]></content>
-  </entry>
-  <entry>
     <title>为什么要写博客</title>
     <url>/2024/06/02/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="想法早就有了"><a href="#想法早就有了" class="headerlink" title="想法早就有了"></a>想法早就有了</h2><p>  写博客这个事情我一直是愿意做的，有一个自己的博客网站，<br>  可以放自己的东西，自己还能设计设计。前天晚上刷到了视频，昨天上午完成的博客搭建，方法很简单，一看就会，hexo感觉做的还是比较好的，下载配置一下就能用了，换主题也比较方便，看哪个好直接下载改个名字就好了可以说是非常方便的了。</p>
@@ -29,6 +23,12 @@
     <url>/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-2/</url>
     <content><![CDATA[<h1 id="功能完善"><a href="#功能完善" class="headerlink" title="功能完善"></a>功能完善</h1><hr>
 <p>  上午装了半天还是不行，下午受不了了直接去换了给主题，这个就好用多了，就是各种文件太多了，自己改的时候容易找不到地方。这个好就好在什么都有，我只需要false改true就行了，那个留言板的功能大致实现了一下，后面就再看看还能加点什么。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test_blog</title>
+    <url>/2024/06/01/test-blog/</url>
+    <content><![CDATA[<p>#这是一篇测试博客<br>仅作为测试<br>    jt_test_blog</p>
 ]]></content>
   </entry>
   <entry>
