@@ -16,6 +16,15 @@
 ]]></content>
   </entry>
   <entry>
+    <title>动态图测试</title>
+    <url>/2024/06/07/%E5%8A%A8%E6%80%81%E5%9B%BE%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h2 id="测试能不能放动态图"><a href="#测试能不能放动态图" class="headerlink" title="测试能不能放动态图"></a>测试能不能放动态图</h2><hr>
+<pre><code>&#123;% asset_img a.gif 动态图测试 %&#125;
+</code></pre>
+<p>可以放，但会有点卡</p>
+]]></content>
+  </entry>
+  <entry>
     <title>夏日杂谈</title>
     <url>/2024/06/17/%E5%A4%8F%E6%97%A5%E6%9D%82%E8%B0%88/</url>
     <content><![CDATA[<h2 id="夏天的晚上"><a href="#夏天的晚上" class="headerlink" title="夏天的晚上"></a>夏天的晚上</h2><p>夏天还是闷热的，热的让人心烦意乱。昨日晚上与朋友（张lz）一道去学校的毕业小晚会或者是二手市场闲逛，闲聊最近各自的情况。我这个人向来是喜欢和不同学科，领域的人聊天的，总愿意是多些见闻，彼此多些趣事。<br>晚会在操场上举办，人很多，很喧杂。晚会主要都是在唱歌，或者说这晚会本就是场歌会，音响声音很大，我与朋友只能大声交流才能听见。用力说话总能带来更多的亢奋，使得交流的兴致很高。我们交流的多数还是在各自的学习经历与未来方向。<br>我对未来想的没有很多，基本是是没什么想法，只是在浑浑噩噩的混日子，不知道去考研还是找工作，不知道考什么，往哪考，也不知道能做什么工作，只是有一天课上一天课，有一段饭吃一段饭罢了。友人对这方面感觉倒是挺关注的，好像一直在了解毕业该往哪里去了。是啊，是快毕业了，大二已经结束，马上大三了。<br>我俩在巨大的音响的声音下就这么聊着，聊了快一个半小时，扯着嗓子大声聊，放肆笑，我的嗓子已经嘶哑，但还是感觉意犹未尽。   </p>
@@ -24,15 +33,6 @@
 <hr>
 <p>我不会结尾，只能附带一篇本文的文风测试，这三个的文章我倒是一个都没看过。    </p>
 <img src="/2024/06/17/%E5%A4%8F%E6%97%A5%E6%9D%82%E8%B0%88/a.png" class="" title="夏日杂谈">]]></content>
-  </entry>
-  <entry>
-    <title>动态图测试</title>
-    <url>/2024/06/07/%E5%8A%A8%E6%80%81%E5%9B%BE%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h2 id="测试能不能放动态图"><a href="#测试能不能放动态图" class="headerlink" title="测试能不能放动态图"></a>测试能不能放动态图</h2><hr>
-<pre><code>&#123;% asset_img a.gif 动态图测试 %&#125;
-</code></pre>
-<p>可以放，但会有点卡</p>
-]]></content>
   </entry>
   <entry>
     <title>更新日志</title>
@@ -45,19 +45,19 @@
   </entry>
   <entry>
     <title>更新日志</title>
+    <url>/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-2/</url>
+    <content><![CDATA[<h1 id="功能完善"><a href="#功能完善" class="headerlink" title="功能完善"></a>功能完善</h1><hr>
+<p>  上午装了半天还是不行，下午受不了了直接去换了给主题，这个就好用多了，就是各种文件太多了，自己改的时候容易找不到地方。这个好就好在什么都有，我只需要false改true就行了，那个留言板的功能大致实现了一下，后面就再看看还能加点什么。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>更新日志</title>
     <url>/2024/06/04/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[<p>  今天干的最大事情就是找了个可以边写边看格式的编辑器，挺好用的，但是吧，我那个b主题怎么不显示我的一级标题<br>#难绷<br>  明明在编辑器可以的，明天再看看吧</p>
 ]]></content>
       <tags>
         <tag>更新</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>更新日志</title>
-    <url>/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-2/</url>
-    <content><![CDATA[<h1 id="功能完善"><a href="#功能完善" class="headerlink" title="功能完善"></a>功能完善</h1><hr>
-<p>  上午装了半天还是不行，下午受不了了直接去换了给主题，这个就好用多了，就是各种文件太多了，自己改的时候容易找不到地方。这个好就好在什么都有，我只需要false改true就行了，那个留言板的功能大致实现了一下，后面就再看看还能加点什么。</p>
-]]></content>
   </entry>
   <entry>
     <title>杂谈</title>
@@ -119,6 +119,16 @@
 <h2 id="放点图片"><a href="#放点图片" class="headerlink" title="放点图片"></a>放点图片</h2>]]></content>
   </entry>
   <entry>
+    <title>英雄联盟</title>
+    <url>/2024/06/07/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/</url>
+    <content><![CDATA[<h2 id="英雄联盟集锦"><a href="#英雄联盟集锦" class="headerlink" title="英雄联盟集锦"></a>英雄联盟集锦</h2><hr>
+<p>用飞机五杀，纪念一下，真是数数又值值</p>
+<img src="/2024/06/07/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/a.jpg" class="" title="英雄联盟">]]></content>
+      <tags>
+        <tag>英雄联盟</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>试试能不能放图片</title>
     <url>/2024/06/04/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%94%BE%E5%9B%BE%E7%89%87/</url>
     <content><![CDATA[<pre><code>//这个不行!
@@ -130,13 +140,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>英雄联盟</title>
-    <url>/2024/06/07/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/</url>
-    <content><![CDATA[<h2 id="英雄联盟集锦"><a href="#英雄联盟集锦" class="headerlink" title="英雄联盟集锦"></a>英雄联盟集锦</h2><hr>
-<p>用飞机五杀，纪念一下，真是数数又值值</p>
-<img src="/2024/06/07/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/a.jpg" class="" title="英雄联盟">]]></content>
+    <title>试试能不能用表情</title>
+    <url>/2024/06/09/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8%E8%A1%A8%E6%83%85/</url>
+    <content><![CDATA[<h2 id="为博客添加emoji表情"><a href="#为博客添加emoji表情" class="headerlink" title="为博客添加emoji表情"></a>为博客添加emoji表情</h2><hr>
+<p><span class="emoji" alias="blush" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60a.png?v8">&#x1f60a;</span><br><span class="emoji" alias="rage" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f621.png?v8">&#x1f621;</span>  </p>
+<span class="emoji" alias="sparkles" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png?v8">&#x2728;</span>]]></content>
       <tags>
-        <tag>英雄联盟</tag>
+        <tag>表情功能</tag>
       </tags>
   </entry>
   <entry>
@@ -149,16 +159,6 @@
 <h2 id="跑步和作业"><a href="#跑步和作业" class="headerlink" title="跑步和作业"></a>跑步和作业</h2><p>等会去下面溜一圈，今天天气很好，可惜没出去，想跑步，一会跑两圈去。本来说这两天猛猛学习的，只能说学了，但是不多。还差那个操作系统没写，一会回来把两题再写了。数据库那个框也没写完，晚上接着写一点。还有什么作业，数据库的实验。</p>
 <h2 id="吃东西"><a href="#吃东西" class="headerlink" title="吃东西"></a>吃东西</h2><p>我最近的理念是不要等待，也就是不给自己留下后悔和遗憾，而且一直以来的想法是不要内耗自己。最近一直想吃汉堡，但是一直舍不得吃kfc(上次吃了下汉堡王，真的难吃啊，又小又难吃)，今天准备吃一次那个牛约包，虽然不是很贵但是还是舍不得，买了那个券又取消了。然后看视频，那个美食博主说：“今天没吃到想吃的食物算不算遗憾”，说的非常有道理，如果我今天没吃到那个汉堡应该会有点遗憾，然后果断就去买了，真的好吃啊，比肯德基都好吃，下次还要吃。可惜忘了拍照了，下次再吃一定要拍个照片放上去。晚上吃的是八元加香蕉，三个香蕉花了我六块，好贵。虽然香蕉能够舒缓心情，但是我买的时候心疼了那是不是就相互抵消了。<br>:)  就这样</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>试试能不能用表情</title>
-    <url>/2024/06/09/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8%E8%A1%A8%E6%83%85/</url>
-    <content><![CDATA[<h2 id="为博客添加emoji表情"><a href="#为博客添加emoji表情" class="headerlink" title="为博客添加emoji表情"></a>为博客添加emoji表情</h2><hr>
-<p><span class="emoji" alias="blush" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60a.png?v8">&#x1f60a;</span><br><span class="emoji" alias="rage" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f621.png?v8">&#x1f621;</span>  </p>
-<span class="emoji" alias="sparkles" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png?v8">&#x2728;</span>]]></content>
-      <tags>
-        <tag>表情功能</tag>
-      </tags>
   </entry>
   <entry>
     <title>随笔杂谈</title>
