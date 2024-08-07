@@ -6,7 +6,7 @@
   <link href="https://fanxingruocheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://fanxingruocheng.github.io/"/>
-  <updated>2024-07-30T15:25:26.232Z</updated>
+  <updated>2024-08-07T15:05:06.191Z</updated>
   <id>https://fanxingruocheng.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暑期生活2</title>
+    <link href="https://fanxingruocheng.github.io/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/"/>
+    <id>https://fanxingruocheng.github.io/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/</id>
+    <published>2024-08-07T14:28:00.000Z</published>
+    <updated>2024-08-07T15:05:06.191Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="暑假生活其二"><a href="#暑假生活其二" class="headerlink" title="暑假生活其二"></a>暑假生活其二</h1><hr><h2 id="又是好多天没写博客"><a href="#又是好多天没写博客" class="headerlink" title="又是好多天没写博客"></a>又是好多天没写博客</h2><p>确实没啥好写的，我的生活也没有那么多姿多彩，要么练车，要么不练，要么睡觉，要么打游戏。昨天认识个很好的女孩子，这两天聊的热火朝天。上次写博客是在7月30号，我考完科目一的那天。今天又过去了八天，想起来我当时说的是多长时间，一个星期一篇？这样看来当时还是高估自己了，我当时就应该料想到我是个懒蛋，我要开始回忆一下我的生活了。</p><h2 id="练车—科目二"><a href="#练车—科目二" class="headerlink" title="练车—科目二"></a>练车—科目二</h2><p>感觉练的还可以，但是好像也没有那么可以，就保持在时好时坏的情况，有时候能操作，有时候就会忘了，比如我的侧方位，我当时练了好多，感觉自己又行了，但是这两天跑大圈没倒进去过，就很烦，明天再去练一练。感觉我还可以吧，不是那么垃圾。</p><h2 id="去吃了汉堡"><a href="#去吃了汉堡" class="headerlink" title="去吃了汉堡"></a>去吃了汉堡</h2><p>带着郁去吃了那家牛约堡，感觉和芜湖的好像差不多，也挺好吃的，但是用不了美团直播间的券，导致我多花了几块，开学前再去吃一次。</p><h2 id="文字摘抄"><a href="#文字摘抄" class="headerlink" title="文字摘抄"></a>文字摘抄</h2><p>今天下了个文字摘抄app,虽然不是很完善，但是用着还行，就冲了一年的会员，15，冲30是终身会员，但是我比较怀疑我是不是能看一年，先冲15算了，保存的图片还是挺好的。放点今天看到的比较喜欢的。<br>第一张  </p><img src="/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/a.jpg" class="" title="暑期生活2">  <p>第二张  </p><img src="/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/b.jpg" class="" title="暑期生活2">  <p>第三张  </p><img src="/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/c.jpg" class="" title="暑期生活2">    <p>第四张  </p><img src="/2024/08/07/%E6%9A%91%E6%9C%9F%E7%94%9F%E6%B4%BB2/d.jpg" class="" title="暑期生活2">  <p>就这样</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;暑假生活其二&quot;&gt;&lt;a href=&quot;#暑假生活其二&quot; class=&quot;headerlink&quot; title=&quot;暑假生活其二&quot;&gt;&lt;/a&gt;暑假生活其二&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;又是好多天没写博客&quot;&gt;&lt;a href=&quot;#又是好多天没写博客&quot; class=&quot;heade</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>暑期生活</title>
@@ -421,28 +442,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>更新日志</title>
-    <link href="https://fanxingruocheng.github.io/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-1/"/>
-    <id>https://fanxingruocheng.github.io/2024/06/05/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-1/</id>
-    <published>2024-06-05T03:13:19.000Z</published>
-    <updated>2024-06-05T03:18:31.758Z</updated>
-    
-    <content type="html"><![CDATA[<p>装了一个上午，啥也没装出来，我看看能不能装一个字数统计，装半天也没看见在哪统计的，还想装一个站内搜索，也没成功，那个留言板也没成功我是真想不明白。我看他们实现功能倒是快，文件直接false改true就行了，我还要看看怎么写代码，创建文件，这主题就是太简洁了，什么都没有，实现什么都得靠自己来，感觉这功能实现先放一放吧，主要是太费时间了，半天啥也没做出来。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;装了一个上午，啥也没装出来，我看看能不能装一个字数统计，装半天也没看见在哪统计的，还想装一个站内搜索，也没成功，那个留言板也没成功我是真想不明白。我看他们实现功能倒是快，文件直接false改true就行了，我还要看看怎么写代码，创建文件，这主题就是太简洁了，什么都没有，实现</summary>
-      
-    
-    
-    
-    
-    <category term="更新" scheme="https://fanxingruocheng.github.io/tags/%E6%9B%B4%E6%96%B0/"/>
     
   </entry>
   
