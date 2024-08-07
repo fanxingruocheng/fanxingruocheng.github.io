@@ -16,6 +16,15 @@
 ]]></content>
   </entry>
   <entry>
+    <title>动态图测试</title>
+    <url>/2024/06/07/%E5%8A%A8%E6%80%81%E5%9B%BE%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h2 id="测试能不能放动态图"><a href="#测试能不能放动态图" class="headerlink" title="测试能不能放动态图"></a>测试能不能放动态图</h2><hr>
+<pre><code>&#123;% asset_img a.gif 动态图测试 %&#125;
+</code></pre>
+<p>可以放，但会有点卡</p>
+]]></content>
+  </entry>
+  <entry>
     <title>亳州杂谈</title>
     <url>/2024/07/18/%E4%BA%B3%E5%B7%9E%E6%9D%82%E8%B0%88/</url>
     <content><![CDATA[<h1 id="亳州杂谈"><a href="#亳州杂谈" class="headerlink" title="亳州杂谈"></a>亳州杂谈</h1><hr>
@@ -27,15 +36,6 @@
 <h2 id="同学之间"><a href="#同学之间" class="headerlink" title="同学之间"></a>同学之间</h2><p>这次最满意的是这个团队，他们计科之间好像确实十分的团结，也可能是他们几个之间比较熟悉，大家之间都很友好，没事就聚在一起玩狼人杀，谁是卧底，三国杀，我本来是不怎么玩这些的，但是和大家玩起来确实是非常有意思，而且他们感觉成绩都不错，或者就是有职务在身上，比起我这个混子应该是好的多，也都不是那么死板的人，都有各自的特点。算是认识了一群不错的人。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>还行，除了花我自己的钱，还不错，就是亳州这个地方不怎么样，太破了，感觉还没有凤阳发展的好，就这样。<br>放一张今天的傍晚天空  </p>
 <img src="/2024/07/18/%E4%BA%B3%E5%B7%9E%E6%9D%82%E8%B0%88/aaa.jpg" class="" title="亳州杂谈">]]></content>
-  </entry>
-  <entry>
-    <title>动态图测试</title>
-    <url>/2024/06/07/%E5%8A%A8%E6%80%81%E5%9B%BE%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h2 id="测试能不能放动态图"><a href="#测试能不能放动态图" class="headerlink" title="测试能不能放动态图"></a>测试能不能放动态图</h2><hr>
-<pre><code>&#123;% asset_img a.gif 动态图测试 %&#125;
-</code></pre>
-<p>可以放，但会有点卡</p>
-]]></content>
   </entry>
   <entry>
     <title>夏日杂谈</title>
